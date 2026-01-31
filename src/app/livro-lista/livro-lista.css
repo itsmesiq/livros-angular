@@ -1,0 +1,52 @@
+.container{
+    padding-top: 64px;
+}
+
+table{
+    margin-top: 32px;
+
+    th{
+        font-weight: 500;
+        padding-left: 24px;
+    }
+
+    td{
+        padding-left: 24px;
+    }
+}
+
+.titulo-livro{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.btn-sm{
+    width: 100%;
+    max-width: 100px;
+}
+
+ul{
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  width: 25%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 45%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 15%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  width: 15%;
+}
