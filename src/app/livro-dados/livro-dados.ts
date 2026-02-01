@@ -9,6 +9,7 @@ import { ControleLivrosService } from '../controle-livros.service';
 
 @Component({
   selector: 'app-livro-dados',
+  standalone: true,
   imports: [CommonModule, FormsModule],
   templateUrl: './livro-dados.html',
   styleUrl: './livro-dados.css',

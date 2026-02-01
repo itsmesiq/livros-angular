@@ -7,6 +7,7 @@ import { ControleLivrosService } from '../controle-livros.service';
 
 @Component({
   selector: 'app-livro-lista',
+  standalone: true,
   imports: [CommonModule],
   templateUrl: './livro-lista.html',
   styleUrl: './livro-lista.css',
